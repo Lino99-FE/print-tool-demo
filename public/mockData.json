@@ -1,0 +1,706 @@
+{
+  "options": {},
+  "data": {
+    "chufuzhengtitle": "处方笺&nbsp;（饮片）",
+    "zhenghao": "71396587198",
+    "name": "雷布斯",
+    "jiuzhengDate": "2019-09-09",
+    "age": "21",
+    "sex": "男",
+    "keshi": "内科",
+    "feibie": "医保 职工",
+    "yibaohao": "123456789",
+    "idCard": "4758193718291954",
+    "gerenbianhao": "99999",
+    "danganhao": "666666",
+    "birthday": "1990-01-01",
+    "nation": "汉族",
+    "address": "广东省广州市天河区",
+    "phoneNumber": "13312512515",
+    "zhengduan": "上呼吸道感染：急性支气管炎止咳糖浆",
+    "yongfa": {
+      "label": "用法：",
+      "data": "共10剂，煎服，1日剂，1剂3次，每次150ml，饭后1小时服用"
+    },
+    "zhongyaoArr": [
+      {
+        "name": "枸杞",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "生地",
+        "gram": "22",
+        "total": "150"
+      },
+      {
+        "name": "黄芪",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "桔梗",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "川芎",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "川贝",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "当归",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "双黄连",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "蛇胆",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "生栀子",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "枸杞",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参",
+        "gram": "10",
+        "total": "100"
+      },
+      {
+        "name": "黄芪",
+        "gram": "15",
+        "total": "150"
+      },
+      {
+        "name": "当归",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "川芎",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "白术",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "熟地黄",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "炙甘草",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "黄柏",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "桑叶",
+        "gram": "14",
+        "total": "140"
+      },
+      {
+        "name": "茯苓",
+        "gram": "16",
+        "total": "160"
+      },
+      {
+        "name": "陈皮",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "山楂",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "白芍",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "枸杞",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "麻黄",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "黄连",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "神曲",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "牡丹皮",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "元胡",
+        "gram": "15",
+        "total": "150"
+      },
+      {
+        "name": "石菖蒲",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "白芷",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "黄柏",
+        "gram": "10",
+        "total": "100"
+      },
+      {
+        "name": "山药",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "女贞子",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "防风",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "藿香",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "桂枝",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "麦冬",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "贝母",
+        "gram": "14",
+        "total": "140"
+      },
+      {
+        "name": "旱莲草",
+        "gram": "16",
+        "total": "160"
+      },
+      {
+        "name": "茵陈蒿",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "石斛",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "菊花",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "地黄",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "苍术",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "紫苏叶",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "南沙参",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "三七",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "木贼",
+        "gram": "15",
+        "total": "150"
+      },
+      {
+        "name": "升麻",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "山茱萸1",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "柴胡2",
+        "gram": "10",
+        "total": "100"
+      },
+      {
+        "name": "黄芩3",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "白术4",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "白芨5",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "桑螵蛸6",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "苍耳子7",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "神曲8",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "枸杞9",
+        "gram": "14",
+        "total": "140"
+      },
+      {
+        "name": "牛蒡子",
+        "gram": "16",
+        "total": "160"
+      },
+      {
+        "name": "木香",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "阿胶",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "鹿角霜",
+        "gram": "13",
+        "total": "130"
+      },{
+        "name": "神曲8",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "枸杞9",
+        "gram": "14",
+        "total": "140"
+      },
+      {
+        "name": "牛蒡子",
+        "gram": "16",
+        "total": "160"
+      },
+      {
+        "name": "木香",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "阿胶",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "鹿角霜",
+        "gram": "13",
+        "total": "130"
+      },{
+        "name": "神曲8",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "枸杞9",
+        "gram": "14",
+        "total": "140"
+      },
+      {
+        "name": "牛蒡子",
+        "gram": "16",
+        "total": "160"
+      },
+      {
+        "name": "木香",
+        "gram": "7",
+        "total": "70"
+      },
+      {
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },{
+        "name": "乌梅",
+        "gram": "12",
+        "total": "120"
+      },
+      {
+        "name": "人参叶",
+        "gram": "8",
+        "total": "80"
+      },
+      {
+        "name": "玄参",
+        "gram": "9",
+        "total": "90"
+      },
+      {
+        "name": "龙眼肉",
+        "gram": "5",
+        "total": "50"
+      },
+      {
+        "name": "知母",
+        "gram": "6",
+        "total": "60"
+      },
+      {
+        "name": "阿胶",
+        "gram": "11",
+        "total": "110"
+      },
+      {
+        "name": "鹿角霜",
+        "gram": "13",
+        "total": "130"
+      },
+      {
+        "name": "何首乌",
+        "gram": "15",
+        "total": "150"
+      },
+      {
+        "name": "五味子",
+        "gram": "9",
+        "total": "90"
+      }
+    ],
+    "jiagong": {
+      "label": "加工：",
+      "data": "机器煎药(普通)，1剂煎1袋"
+    },
+    "kuaidi": {
+      "label": "快递：",
+      "dataArr": [
+        "顺丰-寄付，小米 13111110000",
+        "四川成都市高新区成华大道110号"
+      ]
+    },
+    "yizhu": {
+      "label": "医嘱：",
+      "dataArr": [
+        "1:多喝水，保持水分充足",
+        "2:饮食规律、清淡，不吃辛辣",
+        "3:保持睡眠充足"
+      ]
+    },
+    "footInfoArr": [
+      {
+        "label": "医生",
+        "value": "卢十瓦"
+      },
+      {
+        "label": "金额",
+        "value": "12.08"
+      },
+      {
+        "label": "审核",
+        "value": "麻花腾"
+      },
+      {
+        "label": "调配",
+        "value": "风清扬"
+      },
+      {
+        "label": "核发",
+        "value": "鸣人"
+      }
+    ],
+    "footTip": "除主治医生特别注明外，处方仅当日有效，按卫生部规定............",
+    "printDate": "2024年4月1日16:23:13",
+    "logo": "data:image/jpeg;base64,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",
+    "barCode": "data:image/png;base64,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",
+    "chufangType": "初诊",
+    "qrCode": "data:image/png;base64,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"
+  }
+}

@@ -1,0 +1,250 @@
+<style>
+  div {
+    box-sizing: border-box;
+  }
+
+  .divider {
+    border-bottom: 1px solid #000;
+  }
+
+  .print-container {
+    color: black;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #cecece;
+  }
+
+  .chufang-title {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .chufang-title-item {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .header-logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 30px;
+  }
+
+  .bar-code {
+    position: absolute;
+    lett: 20px;
+    top: 30px;
+    width: 120px;
+  }
+
+  .qr-code {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 80px;
+  }
+
+  .chufang-header-title {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+  }
+
+  .chufang-header-info {
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .patient-info {
+    padding-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .patient-info-item {
+    width: 33%;
+    margin-bottom: 6px;
+  }
+
+  .chufang-zhongyao {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .zhongyao-item {
+    display: flex;
+    padding: 0 20px 20px 0;
+    flex-wrap: nowrap;
+    min-width: 33%;
+    max-width: 100%;
+    line-height: 21px;
+    height: 41px;
+  }
+
+  .zhongyao-yongfa {
+    padding: 8px 0;
+    width: 100%;
+  }
+
+  .chufang-yizhu-item {
+    padding: 8px 0;
+    display: flex;
+  }
+
+  .chufang-footer {
+    border-top: 1px solid #000;
+    padding: 8px 0;
+    height: 60px;
+  }
+
+  .chufang-footer-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .chufang-footer-text {
+    font-size: 12px;
+  }
+</style>
+
+{{#with pageSize}}
+<div class="print-container" style="width: {{width}}px;height: {{height}}px;padding: {{padding}}px">
+{{/with}}
+  <div data-dom-type="fixed" class="chufang-title">
+    {{#each options.titleValue.value}}
+    <div class="chufang-title-item">{{this}}</div>
+    {{/each}}
+  </div>
+  <div data-dom-type="fixed" class="chufang-header">
+    {{#if options.logo.value}}
+    <img class="header-logo" src="{{data.logo}}" />
+    {{/if}}
+    {{#if options.barCode.value}}
+    <img class="bar-code" src="{{data.barCode}}" />
+    {{/if}}
+    {{#if options.qrCode.value}}
+    <img class="qr-code" src="{{data.qrCode}}" />
+    {{/if}}
+
+    <div class="chufang-header-title">{{{data.chufuzhengtitle}}}</div>
+    <div class="chufang-header-info">
+      <div><span>姓名：</span><span>{{data.name}}</span>&nbsp;<span>{{data.sex}}</span>&nbsp;<span>{{data.age}}</span>
+      </div>
+      <div><span>诊号：</span><span>{{data.zhenghao}}</span>&nbsp;
+        {{#if options.chufangType.value}}
+        <span>{{data.chufangType}}</span>
+        {{/if}}
+      </div>
+      <div><span>日期：</span><span>{{data.jiuzhengDate}}</span></div>
+    </div>
+      <div class="divider"></div>
+  </div>
+
+  <div class="patient-info">
+    {{#if options.keshi.value}}
+    <div class="patient-info-item"><span>{{options.keshi.label}}：</span><span>{{data.keshi}}</span></div>
+    {{/if}}
+    {{#if options.feibie.value}}
+    <div class="patient-info-item"><span>{{options.feibie.label}}：</span><span>{{data.feibie}}</span></div>
+    {{/if}}
+    {{#if options.phoneNumber.value}}
+    <div class="patient-info-item"><span>{{options.phoneNumber.label}}：</span><span>{{data.phoneNumber}}</span></div>
+    {{/if}}
+    <div class="patient-info-item" style="width: 66%;"><span>诊断：</span><span>{{data.zhengduan}}</span></div>
+    {{#if options.yibaohao.value}}
+    <div class="patient-info-item"><span>{{options.yibaohao.label}}：</span><span>{{data.yibaohao}}</span></div>
+    {{/if}}
+    {{#if options.idCard.value}}
+    <div class="patient-info-item"><span>{{options.idCard.label}}：</span><span>{{data.idCard}}</span></div>
+    {{/if}}
+    {{#if options.gerenbianhao.value}}
+    <div class="patient-info-item"><span>{{options.gerenbianhao.label}}：</span><span>{{data.gerenbianhao}}</span></div>
+    {{/if}}
+    {{#if options.danganhao.value}}
+    <div class="patient-info-item"><span>{{options.danganhao.label}}：</span><span>{{data.danganhao}}</span></div>
+    {{/if}}
+    {{#if options.birthday.value}}
+    <div class="patient-info-item"><span>{{options.birthday.label}}：</span><span>{{data.birthday}}</span></div>
+    {{/if}}
+    {{#if options.nation.value}}
+    <div class="patient-info-item"><span>{{options.nation.label}}：</span><span>{{data.nation}}</span></div>
+    {{/if}}
+    {{#if options.address.value}}
+    <div class="patient-info-item" style="width: 100%;">
+      <span>{{options.address.label}}：</span><span>{{data.address}}</span>
+    </div>
+    {{/if}}
+  </div>
+  <div class="divider"></div>
+  <div class="chufang-zhongyao">
+    {{#each data.zhongyaoArr}}
+      <div class="zhongyao-item">
+        <div>{{name}} &nbsp;</div>
+        {{#if ../options.danjikeshu.value}}
+        <div>{{gram}}g</div>
+        {{/if}}
+        {{#if ../options.danjikeshu.value}}
+        {{#if ../options.zongjikeshu.value}}
+        <div>/</div>
+        {{/if}}
+        {{/if}}
+        {{#if ../options.zongjikeshu.value}}
+        <div>{{total}}g</div>
+        {{/if}}
+      </div>
+      {{/each}}
+    <div class="zhongyao-yongfa"><span>{{data.yongfa.label}}</span><span>{{data.yongfa.data}}</span></div>
+  </div>
+  <div>
+    {{#if options.jiagong.value}}
+    <div>
+      <div class="divider"></div>
+      <div class="chufang-yizhu-item">
+        <div>{{data.jiagong.label}}</div>
+        <div>{{data.jiagong.data}}</div>
+      </div>
+    </div>
+    {{/if}}
+    {{#if options.kuaidi.value}}
+    <div>
+      <div class="divider"></div>
+      <div class="chufang-yizhu-item">
+        <div>{{data.kuaidi.label}}</div>
+        <div>
+          {{#each data.kuaidi.dataArr}}
+          <div style="margin-bottom: 2px;">{{this}}</div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    {{/if}}
+    {{#if options.yizhu.value}}
+    <div>
+      <div class="divider"></div>
+      <div class="chufang-yizhu-item">
+        <div>{{data.yizhu.label}}</div>
+        <div>
+          {{#each data.yizhu.dataArr}}
+          <div style="margin-bottom: 2px;">{{this}}</div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    {{/if}}
+  </div>
+
+  <div data-dom-type="fixed" class="chufang-footer">
+    <div class="chufang-footer-info">
+      {{#each data.footInfoArr}}
+      <div><span>{{label}}：</span> <span>{{value}}</span></div>
+      {{/each}}
+    </div>
+    <div class="chufang-footer-text">{{data.footTip}}</div>
+    <div class="chufang-footer-text">{{data.printDate}}</div>
+  </div>
+</div>
