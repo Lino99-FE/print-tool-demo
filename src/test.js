@@ -34,7 +34,7 @@ const TestComp = () => {
     const divDom = document.querySelector('#testDiv')
     const tmp = printTool.renderTemplate(htmlText, printData, 'A4')
     divDom.innerHTML = tmp
-
+    console.log('%c [ printData ]-53', 'font-size:13px; background:pink; color:#bf2c9f;', printData)
   }
 
   const makeBaseTemplate = async () => {
@@ -59,6 +59,7 @@ const TestComp = () => {
   }
 
   const changeData = (newData) => {
+    console.log('%c [ newData ]-62', 'font-size:13px; background:pink; color:#bf2c9f;', newData)
     setPrintData(newData)
   }
 
