@@ -27,7 +27,7 @@
 
   .header-logo {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 10px;
     width: 30px;
   }
@@ -98,8 +98,8 @@
 
   .chufang-footer {
     border-top: 1px solid #000;
-    padding: 8px 0;
-    height: 60px;
+    padding: 8px 0 0 0;
+    height: 72px;
   }
 
   .chufang-footer-info {
@@ -114,7 +114,7 @@
 </style>
 
 {{#with pageSize}}
-<div class="print-container" style="width: {{width}}px;height: {{height}}px;padding: {{padding}}px">
+<div class="print-container" style="width: {{width}}px;min-height: {{height}}px;padding: {{paddingTB}}px {{paddingLR}}px;">
 {{/with}}
   <div data-dom-type="fixed" class="chufang-title">
     {{#each options.titleValue.value}}
@@ -201,7 +201,7 @@
       {{/each}}
     <div class="zhongyao-yongfa"><span>{{data.yongfa.label}}</span><span>{{data.yongfa.data}}</span></div>
   </div>
-  <div>
+  <div class="chufang-yizhu">
     {{#if options.jiagong.value}}
     <div>
       <div class="divider"></div>

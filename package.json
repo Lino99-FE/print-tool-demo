@@ -1,15 +1,18 @@
 {
-  "name": "print-tool-demo",
-  "version": "0.0.7",
-  "description": "his系统的打印工具库",
+  "name": "print-tool",
+  "version": "0.0.12",
+  "description": "HIS系统的打印工具库",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
     "format": "prettier --write \"**/*.hbs\"",
     "types": "tsc",
     "build:preview": "webpack --config webpack.preview.js",
     "build:publish": "webpack --config webpack.prod.js && npm run types",
-    "clean:dist": "rm -rf dist",
-    "pub": "npm run clean:dist && npm version patch && npm run build:publish && npm publish"
+    "build:rollup": "npm run clean:lib && rollup -c && npm run types",
+    "clean:dist": "rimraf dist",
+    "clean:lib": "rimraf lib",
+    "gstlogin": "npm login --registry=https://npm.gstyun.cn/",
+    "pub": "npm version patch && npm run build:publish && npm publish --registry=https://npm.gstyun.cn/"
   },
   "keywords": [
     "print"
@@ -29,6 +32,8 @@
     "html-webpack-plugin": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.14.1",
     "style-loader": "^3.3.4",
     "typescript": "^5.4.3",
     "webpack": "^5.91.0",

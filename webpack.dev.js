@@ -20,4 +20,7 @@ module.exports = merge(common, {
       directory: path.join(__dirname, 'public'),
     }
   },
+  module: {
+    rules: []
+  }
 });

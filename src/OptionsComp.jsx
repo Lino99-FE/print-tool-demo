@@ -1,11 +1,11 @@
 import React, {useState,useEffect} from "react";
+import useUpdateEffect from "./hooks/useUpdateEffect";
 
-const OptionsComp = ({ mockData, changeData }) => {
-  // console.log(mockData, "---------mockData----------------");
+const OptionsComp = ({ mockData, changeData, baseUrl }) => {
   const [optionsData, setOptionsData] = useState({});
 
   useEffect(() => {
-    fetch('/mockOpts.json').then(res => res.json()).then(data => {
+    fetch(`${baseUrl}/mockOpts.json`).then(res => res.json()).then(data => {
       setOptionsData(data);
     });
   }, []);
@@ -43,7 +43,7 @@ const OptionsComp = ({ mockData, changeData }) => {
     return tmpMockData
   }
 
-  useEffect(() => {
+  useUpdateEffect(() => {
     changeData(makeNewPrintData())
   }, [optionsData]);
 

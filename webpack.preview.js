@@ -13,7 +13,7 @@ module.exports = merge(common, {
     }),
     new CopyPlugin({
       patterns: [
-        {from: 'public', to: ''},
+        { from: 'public', to: '' },
       ]
     }),
   ],
@@ -21,6 +21,9 @@ module.exports = merge(common, {
     clean: true,
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: '/print/',
   },
+  module: {
+    rules: []
+  }
 });
