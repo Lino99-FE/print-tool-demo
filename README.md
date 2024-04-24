@@ -1,4 +1,4 @@
-# HIS系统的打印工具库
+# 打印工具库
 ## 说明
   基于handlebars工具库实现的打印工具库，模板语法为mustache语法，支持if each 语法，具体可查看[handlebars官方文档](https://handlebarsjs.com/)
 
