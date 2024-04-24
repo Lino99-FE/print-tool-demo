@@ -1,7 +1,7 @@
 {
   "name": "print-tool",
   "version": "0.0.12",
-  "description": "HIS系统的打印工具库",
+  "description": "打印工具库",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
     "format": "prettier --write \"**/*.hbs\"",
