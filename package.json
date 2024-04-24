@@ -17,7 +17,7 @@
   "keywords": [
     "print"
   ],
-  "author": "gst fe team",
+  "author": "lino",
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.7.8"
